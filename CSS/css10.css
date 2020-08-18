@@ -1,0 +1,39 @@
+body{
+    font-size: 16px;
+}
+h1{
+    color: rgb(23, 151, 23);
+    font-size: 40px;
+}
+div{
+    background-color: rgb(37, 189, 209);
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 17px;
+}
+.shadow{
+    text-shadow: black 5px 5px 1px;
+    color: rgb(219, 219, 26);
+    font-size: 27px;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+.text_regis{
+    color: rgb(11, 163, 11);
+    background-color: white;
+    font-size: 20px;
+}
+.registration{
+    background-color: rgb(37, 189, 209);
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+}
+.login{
+    float: right;
+}

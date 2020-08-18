@@ -1,0 +1,25 @@
+.one{
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    background-color: yellow;
+}
+.two{
+    width: 200px;
+    max-height: 100px;
+    line-height: 20px;
+    border: 3px solid black;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: yellow;
+}
+.three{
+    width: 200px;
+    max-height: 100px;
+    border: 3px solid black;
+    overflow: scroll;
+    display: inline-block;
+    background-color: yellow;
+}

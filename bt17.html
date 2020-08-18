@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>Họ tên:</td>
+            <td><input type="text" placeholder="Nhập họ tên ở đây" name="name"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <form action="">
+                    <input type="radio" name="sex" value="Nam" checked>Nam
+                    <input type="radio" name="sex" value="Nữ">Nữ
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Điều bạn quan tâm</td>
+            <td>
+                <form action="">
+                    <input type="checkbox" name="care" value="Kinhte" checked>Kinh tế
+                    <input type="checkbox" name="care" value="Xahoi" checked>Xã hội
+                    <input type="checkbox" name="care" value="Giaitri">Giải trí
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td>
+                <textarea name="diachi" id="" cols="50" rows="7"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Học vấn</td>
+            <td>
+                <select name="hocvan" id="">
+                    <option value="daihoc">Đại học</option>
+                    <option value="caodang">Cao đẳng</option>
+                    <option value="trungcap">Trung cấp</option>
+                    <option value="thpt">THPT</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form action="">
+                    <button type="submit">Gửi thông tin</button>
+                    <button type="reset">Nhập lại</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

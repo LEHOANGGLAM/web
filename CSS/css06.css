@@ -1,0 +1,21 @@
+.mot{
+    background-image: url("../Images/Harry-Potter-Daniel-Radcliffe-Nguồn-Time-Magazine-1.jpg");
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.hai{
+    background-image: url("../Images/gia-in-background-san-khau-tphcm.jpg");
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.ba{
+    background-image: url("../Images/1.jpg");
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

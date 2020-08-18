@@ -1,0 +1,19 @@
+p{
+    font-weight: bold;
+}
+a:link{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+a:active{
+    color: yellow;
+    text-decoration: none;
+}

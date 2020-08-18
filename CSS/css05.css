@@ -1,0 +1,32 @@
+.image{
+    width: 150px;
+    height: 150px;
+    outline: 5px double #000000;
+}
+.solid{
+    border: 3px solid #000000;
+    background-color: rgb(194, 189, 189);
+    padding: 2px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+.solid2{
+    border: 2px solid #000000;
+    padding: 7px;
+   
+}
+.word{
+    border: 3px solid #000000;
+    background-color: rgb(194, 189, 189);
+    display: inline-block;
+}
+.dashed{
+    border: 3px dashed blue;
+    padding: 7px;
+}
+.indashed{
+    border: 2px dashed red;
+    background-color: rgb(194, 189, 189);
+    padding: 3px;
+}

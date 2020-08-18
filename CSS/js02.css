@@ -1,0 +1,13 @@
+h3{
+  margin: 0px;
+}
+table{
+    background-color: rgb(243, 224, 189);
+    border-color: rgb(161, 156, 156);
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+td{
+    padding: 5px;
+    padding-right: 110px;
+}

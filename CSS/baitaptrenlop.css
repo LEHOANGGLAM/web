@@ -1,0 +1,35 @@
+/* body>div{
+    width: 1000px;
+    height: 1000px;
+    overflow: scroll;
+    border: 1px solid black;
+} */
+h1{
+    text-align: center;
+    color: green;
+    text-shadow: 3px 3px black;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+    
+}
+div:nth-of-type(1),
+div:nth-of-type(2){
+    background-color: blue;
+    text-align: center;
+}
+
+div:nth-of-type(3),
+div:nth-of-type(4){
+    background-color: yellow;
+    text-align: right;
+    
+}
+div:nth-of-type(3){
+    clear: left;
+}

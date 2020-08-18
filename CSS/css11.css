@@ -1,0 +1,93 @@
+.head{
+    background-image: url(../Images/1.jpg);
+    vertical-align: middle;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100px;
+    line-height:100px;
+}
+
+.head_link{
+    margin-top: -10px;
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.head_link ul li{
+    display: inline-block;
+    margin-left: 5px;
+} 
+.head_link ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+
+.left{
+    margin-top: 5px;
+    background-color: green;
+    width: 20%;
+    min-height: 500px;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.left ul li{
+    margin-top: 20px;
+}
+
+.right{
+    float: right;
+    width: 24%;
+    min-height: 500px;
+    background-color: green;
+    margin-top: 5px;
+    
+}
+.right div{
+    margin: 20px;
+    border: 1px solid greenyellow;
+    background-color: wheat;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.content{
+    background-color: #ffffff;
+    margin-top: 0px;
+    min-height: 500px;
+}
+.content div{
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 26%;
+    height: 225px;
+    background-color: rgb(189, 183, 183);
+    margin-top: 10px;
+    padding: 5px;
+}
+.content div:last-child{
+    overflow: scroll;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    line-height: 45px;
+}

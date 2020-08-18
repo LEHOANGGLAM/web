@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/js02.css">
+    <script src="./JS/js02.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" cellspacing="0" >
+            <caption><h3>CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH BẬC 2</h3> 
+                <h3>ax<sup>2</sup> + bx + c = 0</h3></caption>
+            <tr>
+                <td>a=</td>
+                <td><input type="text" placeholder="Nhập a" id="a"></td>
+            </tr>
+            <tr>
+                <td>b=</td>
+                <td><input type="text" placeholder="Nhập b" id="b"></td>
+            </tr>
+            <tr>
+                <td>c=</td>
+                <td><input type="text" placeholder="Nhập c" id="c"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="tinh(); return false;" >Giải</button>
+                    <button type="reset">Xóa</button>
+                </td>
+            </tr>
+        </table>
+        <h4>Phương trình có 2 nghiệm là: </h4>
+        <h4 id="x1"></h4>
+        <h4 id="x2"></h4>
+        <h4 id="kq"></h4>
+    </form>
+</body>
+</html>
